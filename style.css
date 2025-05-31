@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+
+}
+
+#main {
+    width: 100%;
+    background-color: rgb(239, 238, 238);
+}
+
+#nav{
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+#lnav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+#lnav button{
+    padding: 8px 22px;
+    border-radius: 100px;
+    border: none;
+    background-color: white;
+}
+
+#rnav {
+    display: flex;
+    gap: 10px;
+}
+
+
+#rnav a{
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#photo {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-image: url(b&wimage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#name {
+    position: absolute;
+    display: flex;
+    left: 70px;
+    top: 40px;
+    transform: translate(0, -50%) rotate(-10deg);
+    background-color: white;
+    border-radius: 100px;
+    white-space: nowrap;
+    font-size: 13px;
+    padding:6px 15px;
+}
+
+#details #text {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#details button {
+    padding: 12px 32px;
+    border: none;
+    border-radius: 100px;
+
+}
+
+#shorts-button {
+    padding: 12px 32px;
+    border: none;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 880px;
+}
+
